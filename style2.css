@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header__nav-logo{
+    width: 120px;
+    height: 151px;
+    top: 50px;
+    left: 900px;
+    margin: 50px 48% 60px;
+}
+.container {
+    align-items: center;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background: white;
+    padding: 15px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header__nav-list-item-link{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.header__nav-photo{
+    display: flex;
+    width: 1110px;
+    height: 450px;
+    margin: 30px 0 0;
+}
+.about__desc{
+    width: 730px;
+    height: 500px;
+    background: rgba(240, 240, 240, 1);
+}
+.about__desc-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(69, 129, 183, 1);
+    padding: 50px 10px 10px;
+}
+.about__desc-text{
+    color: rgba(128, 128, 128, 1);
+    padding: 25px 0 51px 40px;
+}
+.about__contact{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;;
+    background: rgba(240, 240, 240, 1);
+}
+.about__contact-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    color:rgba(69, 129, 183, 1);
+    padding: 50px 0 0 40px;
+}
+.about__contact-data{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:24px 40px;
+    color: rgba(128, 128, 128, 1);
+    margin-top: 25px;
+}
+.about__contact-number{
+    color:rgba(128, 128, 128, 1);
+    padding: 20px 0 20px;
+}
+.about__contact-email{
+    color: rgba(128, 128, 128, 1);
+}
+.about__phone{
+    background: rgba(240, 240, 240, 1);
+    margin: 30px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.about__desc--contact{
+    display: flex;
+    gap: 30px;
+}
+.about__phone-logo{
+    height: 120px;
+    align-self: center;
+    padding-left: 40px;
+}
+.about__phone-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.about__phone-time{
+    color: rgba(128, 128, 128, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.about__phone-number{
+    color: rgba(128, 128, 128, 1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+}
